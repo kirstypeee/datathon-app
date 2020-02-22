@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|IBM+Plex+Sans+Condensed|IBM+Plex+Serif');
+/** BRAND COLORS 
+* lightBlue: #3a74ba
+* darkBlue: #0d2d54
+* pink: #cd4160
+* darkGreen: #222e2e
+*/
+
 * {
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
