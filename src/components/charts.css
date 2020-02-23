@@ -1,0 +1,8 @@
+.chart-wrapper {
+  padding: 1rem;
+  background: #f7f7f7;
+}
+
+.chart-wrapper .MuiCard-root {
+  margin: 1rem 0;
+}

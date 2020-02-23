@@ -8,10 +8,10 @@
 
 .upload-container {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   color: white;
-  background-color: #0d2d54;
   padding: 2rem 2rem 4rem 2rem;
 }
 
@@ -23,15 +23,33 @@
   max-width: 1000px;
 }
 
+.upload-icon {
+  font-size: 4rem;
+  opacity: 0.75;
+}
+
 .dropzone {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: white;
   border: 2px #f7f7f7aa dashed;
   border-radius: 8px;
   padding: 1rem;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropzone-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropzone:hover {
+  background-color: #3a74ba47;
 }
 
 .dropzone:focus * {
@@ -43,4 +61,26 @@
   flex-direction: column;
   align-items: stretch;
   margin: 1rem 0;
+}
+
+.upload-loading-wrapper .MuiLinearProgress-colorPrimary {
+  background-color: #cd416047;
+}
+
+.upload-loading-wrapper .MuiLinearProgress-barColorPrimary {
+  background-color: #cd4160;
+}
+
+.page-home .MuiExpansionPanel-root {
+  background-color: #0d2d54;
+  color: white;
+}
+
+.page-home .MuiIconButton-root {
+  color: white;
+}
+
+.page-home .MuiExpansionPanelSummary-root {
+  max-width: 1000px;
+  margin: auto;
 }
