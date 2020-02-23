@@ -3,6 +3,7 @@
 * darkBlue: #0d2d54
 * pink: #cd4160
 * darkGreen: #222e2e
+* secondaryText: #1f2526bf
 */
 
 * {
@@ -17,4 +18,10 @@
   align-items: stretch;
   flex-direction: column;
   justify-content: flex-start;
+  color: #1f2526;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
 }
